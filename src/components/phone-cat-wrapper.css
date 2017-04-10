@@ -2,6 +2,10 @@ body {
   padding-top: 20px;
 }
 
+.phone-cat-wrapper {
+  padding-top: 45px;
+}
+
 .phones {
   list-style: none;
 }
