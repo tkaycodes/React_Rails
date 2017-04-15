@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import BookCat from './BookCat.js';
 import './phone-cat-wrapper.css';
 import phoneImage from '../img/motorola-xoom-with-wi-fi.0.jpg';
 
-class PhoneCatWrapper extends Component {
+class BootCatWrapper extends Component {
   render() {
     return (
-      <div className="row phone-cat-wrapper">
+      // <div>Hello World</div>
+      /*<div className="row phone-cat-wrapper">
         <div className="col-md-2">
           Search:
           <input type="text"/>
@@ -50,12 +52,13 @@ class PhoneCatWrapper extends Component {
 
         </ul>
         </div>
-      </div>
+      </div>*/
+      <BookCat />
     );
   }
 }
 
-export default PhoneCatWrapper;
+export default BootCatWrapper;
 
 
 

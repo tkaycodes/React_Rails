@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactIntro from './components/ReactIntro';
-import PhoneCatWrapper from './components/PhoneCatWrapper';
+import BookCatWrapper from './components/BookCatWrapper';
 import './index.css';
 
 ReactDOM.render(
   <ReactIntro />,
-  document.getElementById('root')
+  document.getElementById('react-intro')
 );
 
 ReactDOM.render(
-  <PhoneCatWrapper />,
+  <BookCatWrapper />,
   document.getElementById('book-app')
 );
