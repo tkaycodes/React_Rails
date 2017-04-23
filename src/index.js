@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactIntro from './components/ReactIntro';
-import BookCatWrapper from './components/BookCatWrapper';
+import _BookCatWrapperAPI from './components/_BookCatWrapperAPI';
 import './index.css';
 
 ReactDOM.render(
@@ -10,6 +10,6 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-  <BookCatWrapper />,
+  <_BookCatWrapperAPI />,
   document.getElementById('book-app')
 );

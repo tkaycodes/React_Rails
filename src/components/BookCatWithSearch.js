@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import SearchForm from './SearchForm.js';
 import BookList from './BookList.js';
 
-class BookCat extends Component{
+class BookCatWithSearch extends Component{
 
   render() {
 
@@ -15,7 +15,7 @@ class BookCat extends Component{
         </div>
         <div className = "col-md-10">
         
-          <BookList />
+          <BookList books={this.props.books} />
           
         </div>
       </div>
@@ -25,4 +25,4 @@ class BookCat extends Component{
 
 };
 
-export default BookCat;
+export default BookCatWithSearch;

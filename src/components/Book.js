@@ -1,25 +1,25 @@
 import React, {Component} from 'react';
-import xoomImg from '../img/motorola-xoom-with-wi-fi.0.jpg';
 
 class Book extends Component {
 
   render() {
 
+    var book = this.props.book;
+
     return (
 
       <li className="thumbnail phone-listing">
-  
-          <a href="#/phones/motorola-xoom-with-wi-fi" className="thumb">
-            <img src={xoomImg} />
-          </a>
+        <a href="#" className="thumb">
+          <img src={book.imageUrl} />
+        </a>
 
-          <a href="#/phones/motorola-xoom-with-wi-fi" >Motorola XOOM™ with Wi-Fi</a>
+        <a href="#">
+          {book.name}
+        </a>
 
-        <p>The Next, Next Generation
-
-          Experience the future with Motorola XOOM with Wi-Fi, the worlds first tablet powered by Android 3.0 (Honeycomb).
+        <p>
+          {book.snippet}
         </p>
-        
       </li>
 
     )
